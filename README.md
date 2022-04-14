@@ -4,8 +4,10 @@ This is a repo for SSP mini-project: beamforming for throughput optimization in 
 
 ## Project Structure
 ```
-- ssp_assignment1.m   # code for matched beamforming
+- ssp_assignment1.m   # code for matched beamforming by computing distance
+- ssp_assignment1_inner_product.m   # code for matched beamforming by computing inner product
 - ssp_assignment2.m   # code for flexibeam
+- ssp_assignment2_inner_product.m   # code for flexibeam, consider (partial?) affects of radius and wave length
 ```
 
 ## References
