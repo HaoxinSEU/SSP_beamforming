@@ -41,17 +41,17 @@ sigma = sqrt(2 - 2 * cos(Theta)) * radius;
 for i = 1 : 96
     w_ampl(i) = exp(-2 * (pi^2) * (sigma^2) * (norm(p(i,:))^2));
     w(i) = w_ampl(i) * exp(-1i * 2*pi * dot(p(i,:), r0) / (radius * lambda));
-    %w(i) = exp(-1i * 2*pi * dot(p(i,:), r0));
+    %w(i) = exp(-1i * 2*pi * dot(p(i,:), r0) / (radius * lambda));
 end
 
 sum_w_norm = 0;
 for i = 1 : 96
     sum_w_norm = sum_w_norm + abs(w(i))^2;
 end
-% 
-% for i = 1 : 96
-%     w(i) = w(i) / sqrt(sum_w_norm);
-% end
+
+for i = 1 : 96
+    w(i) = w(i) / sqrt(sum_w_norm);
+end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%% beam shape for flexibeam %%%%%%%%%%%%%
