@@ -2,6 +2,8 @@
 
 This is a repo for SSP mini-project: beamforming for throughput optimization in 5G.
 
+Use two different ways to do beamforming: matched beamforming (assignment1) and flexibeam (assignment2).
+
 ## Project Structure
 ```
 - ssp_assignment1.m   # code for matched beamforming by computing distance
