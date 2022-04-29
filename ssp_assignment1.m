@@ -1,6 +1,10 @@
 clear;
 clc;
 
+load('directions.mat');
+
+
+
 lambda = 0.01;  % wave length
 radius = 10;
 sigma = 0.1;   % variance of white noise
