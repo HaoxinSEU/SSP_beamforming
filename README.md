@@ -1,20 +1,29 @@
 # SSP_beamforming
 
-This is a repo for SSP mini-project: beamforming for throughput optimization in 5G.
+This is a repo for EPFL COM-500 SSP mini-project: Beamforming for Throughput Optimization in 5G.
 
-Use two different ways to do beamforming: matched beamforming (assignment1) and flexibeam (assignment2).
+We use two different ways to do beamforming for a MISO downlink communication system: matched beamforming (assignment1) and flexibeam (assignment2).
+
+### Author: [Sun Haoxin](https://github.com/HaoxinSEU), [Xu Zewei](https://github.com/xuzewei28) and [Wu Yujie](https://github.com/YuJieWU99)
 
 ## Project Structure
 ```
-- ssp_assignment1.m   # code for matched beamforming by computing distance
-- ssp_assignment1_inner_product.m   # code for matched beamforming by computing inner product
-- ssp_assignment2.m   # code for flexibeam
-- ssp_assignment2_inner_product.m   # code for flexibeam, consider (partial?) affects of radius and wave length
+- data
+  - data1.mat         % DOA estimation results of dataset 1
+  - data2.mat         % DOA estimation results of dataset 2
+  - original_data     % real signal received by a base station
+    - data_1.npz      % dataset 1
+    - data_2.npz      % dataset 2
+    - README.txt
+- MATLAB              % matlab source code
+  - matched_beamforming.m
+  - flexibeam.m
+- Python
+- report              % report for this project
+  - assignment1.pdf   % report for matched beamforming
+  - assignment2.pdf   % report for flexibeam
+  - assignment3.pdf   % summary
 ```
-
-## TODO
-1. influence of radius and wave length on flexibeam
-2. convert from radiation pattern to throughput
 
 
 ## References
