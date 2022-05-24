@@ -9,15 +9,15 @@ We use two different ways to do beamforming for a MISO downlink communication sy
 ## Project Structure
 ```
 - data
-  - data1.mat         % DOA estimation results of dataset 1
-  - data2.mat         % DOA estimation results of dataset 2
+  - data_1.mat         % DOA estimation results of dataset 1
+  - data_2.mat         % DOA estimation results of dataset 2
   - original_data     % real signal received by a base station
     - data_1.npz      % dataset 1
     - data_2.npz      % dataset 2
     - README.txt
 - MATLAB              % matlab source code
-  - matched_beamforming.m
   - flexibeam.m
+  - matched_beamforming.m
 - Python
 - report              % report for this project
   - assignment1.pdf   % report for matched beamforming
