@@ -1,4 +1,4 @@
-# SSP_beamforming
+# EPFL COM-500 Mini-Project: Group Throughput optimization in Wireless Communications via Spatial Beamforming
 
 This is a repo for EPFL COM-500 SSP mini-project: Beamforming for Throughput Optimization in 5G.
 
@@ -18,14 +18,12 @@ We use two different ways to do beamforming for a MISO downlink communication sy
 - MATLAB              % matlab source code
   - flexibeam.m
   - matched_beamforming.m
-- Python
-- report              % report for this project
-  - assignment1.pdf   % report for matched beamforming
-  - assignment2.pdf   % report for flexibeam
-  - assignment3.pdf   % summary
+- Python              % python notebook source code
+- report.pdf          % our report for these two methods
 ```
 
 
 ## References
 1. P. Hurley and M. Simeoni, "Flexibeam: Analytic spatial filtering by beamforming," 2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2016, pp. 2877-2880, doi: 10.1109/ICASSP.2016.7472203.
 2. Simeoni, Matthieu & Hurley, Paul. (2016). Beamforming towards regions of interest for multi-site mobile networks. 
+3. Krim, H., & Viberg, M. (1996). Two decades of array signal processing research: the parametric approach. IEEE signal processing magazine, 13(4), 67-94.
