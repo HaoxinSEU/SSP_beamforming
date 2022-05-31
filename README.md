@@ -1,12 +1,12 @@
-# EPFL COM-500 Mini-Project: Group Throughput Optimization in Wireless Communications via Spatial Beamforming
+# Group Throughput Optimization in Wireless Communications via Spatial Beamforming
 
 ### Author: [Sun Haoxin](https://github.com/HaoxinSEU), [Xu Zewei](https://github.com/xuzewei28) and [Wu Yujie](https://github.com/YuJieWU99)
 
 
 ## Introduction
-This is a repo for EPFL COM-500 SSP mini-project: Beamforming for Throughput Optimization in 5G.
+This is a repo for EPFL COM-500 (Statistical Signal and Data Processing through Applications) mini-project: Beamforming for Throughput Optimization in 5G.
 
-We use two different ways to do beamforming for a MISO downlink communication system: matched beamforming and flexibeam.
+In this project, we use two different ways to do beamforming for a MISO downlink communication system: matched beamforming and flexibeam. More detailed description can be found in our report.
 
 
 
@@ -24,7 +24,7 @@ We use two different ways to do beamforming for a MISO downlink communication sy
   - matched_beamforming.m   % matched beamforming
 - python-Notebook     % python notebook source code
   - doa.ipynb         % DOA estimation
-  - flex_beam.ipynb   % flexibeam
+  - flexibeam.ipynb   % flexibeam
   - matched_beam.ipynb  % matched beamforming
   - MVDR_beam.ipynb   % MVDR beamforming
   - Simulation.ipynb  % simulation with flexibeam and matched beamforming
